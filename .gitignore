@@ -59,6 +59,13 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# pnpm
+.pnpm-store/
+.pnpmfile.cjs
+
+# pnpm workspace
+pnpm-workspace.yaml
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
